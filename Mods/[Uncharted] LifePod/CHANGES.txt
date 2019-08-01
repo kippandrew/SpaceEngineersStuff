@@ -1,0 +1,4 @@
+07-31-2019:
+ - Change deploy altitute to 4000m
+ - Fix help text
+ - Fix icon
