@@ -28,17 +28,17 @@
       <Components>
         <Component Subtype="Girder" Count="6" />
         <Component Subtype="Concrete" Count="10">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="40">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="40">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <Variants>
@@ -210,17 +210,17 @@
       <Components>
         <Component Subtype="Girder" Count="4" />
         <Component Subtype="Concrete" Count="5">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="20">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="20">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -352,17 +352,17 @@
       <Components>
         <Component Subtype="Girder" Count="2" />
         <Component Subtype="Concrete" Count="2">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="8">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="8">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -469,17 +469,17 @@
       <Components>
         <Component Subtype="Girder" Count="5" />
         <Component Subtype="Concrete" Count="9">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="36">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="36">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -613,7 +613,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>4</DisassembleRatio>
     </Definition>
-	
+
     <!-- Region ROUND ARMOR -->
     <Definition>
       <Id>
@@ -640,17 +640,17 @@
       <Components>
         <Component Subtype="Girder" Count="4" />
         <Component Subtype="Concrete" Count="4">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="16">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="16">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -792,17 +792,17 @@
       <Components>
         <Component Subtype="Girder" Count="2" />
         <Component Subtype="Concrete" Count="2">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="8">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="8">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -909,17 +909,17 @@
       <Components>
         <Component Subtype="Girder" Count="4" />
         <Component Subtype="Concrete" Count="8">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="16">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="16">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -1084,17 +1084,17 @@
       <Components>
         <Component Subtype="Girder" Count="4" />
         <Component Subtype="Concrete" Count="6">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="24">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="24">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <Variants>
@@ -1270,17 +1270,17 @@
       <Components>
         <Component Subtype="Girder" Count="2" />
         <Component Subtype="Concrete" Count="2">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="8">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="8">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -1412,17 +1412,17 @@
       <Components>
         <Component Subtype="Girder" Count="2" />
         <Component Subtype="Concrete" Count="3">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="13">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="13">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -1565,17 +1565,17 @@
       <Components>
         <Component Subtype="Girder" Count="1" />
         <Component Subtype="Concrete" Count="1">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="4">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="4">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -1677,17 +1677,17 @@
       <Components>
         <Component Subtype="Girder" Count="4" />
         <Component Subtype="Concrete" Count="7">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="29">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="29">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -1855,17 +1855,17 @@
       <Components>
         <Component Subtype="Girder" Count="3" />
         <Component Subtype="Concrete" Count="5">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="21">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="21">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <MountPoints>
@@ -2000,10 +2000,10 @@
       <DisassembleRatio>4</DisassembleRatio>
     </Definition>
     <!-- End Region SLOPED ARMOR -->
-    
 
-	
-	<!-- Region MULTI-BLOCKS -->
+
+
+    <!-- Region MULTI-BLOCKS -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -2030,17 +2030,17 @@
       <Components>
         <Component Subtype="Girder" Count="16" />
         <Component Subtype="Concrete" Count="13">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="52">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="52">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <BuildProgressModels>
@@ -2088,17 +2088,17 @@
       <Components>
         <Component Subtype="Girder" Count="26" />
         <Component Subtype="Concrete" Count="21">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="84">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="84">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <BuildProgressModels>
@@ -2139,17 +2139,17 @@
       <Components>
         <Component Subtype="Girder" Count="40" />
         <Component Subtype="Concrete" Count="30">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="123">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="123">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <BuildProgressModels>
@@ -2197,17 +2197,17 @@
       <Components>
         <Component Subtype="Girder" Count="106" />
         <Component Subtype="Concrete" Count="81">
-		<DeconstructId>
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-	  </Component>
-		<Component Subtype="Concrete" Count="324">
-		<DeconstructId>
+        </Component>
+        <Component Subtype="Concrete" Count="324">
+          <DeconstructId>
             <TypeId>Ingot</TypeId>
             <SubtypeId>Stone</SubtypeId>
           </DeconstructId>
-      </Component>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Concrete" Index="0" />
       <BuildProgressModels>
