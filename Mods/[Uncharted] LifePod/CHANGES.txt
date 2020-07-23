@@ -1,3 +1,0 @@
-07-31-2019:
- - Change deploy altitude to 6000m
- - Fix help text & icon
