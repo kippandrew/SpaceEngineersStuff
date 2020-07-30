@@ -7,9 +7,9 @@
         <SubtypeId>RespawnPlanetPod</SubtypeId>
       </Id>
       <DisplayName>DisplayName_PlanetaryLander</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <Icon>Textures\GUI\Icons\RespawnShips\Fake.png</Icon>
       <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>RespawnPlanetPod</Prefab>
+      <Prefab>RespawnRoverPuma</Prefab>
       
       <MinimalAirDensity>0.8</MinimalAirDensity>
       <PlanetDeployAltitude>2000</PlanetDeployAltitude>
