@@ -182,7 +182,7 @@
       <DeformationRatio>0.0</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>12</BuildTimeSeconds>
-      <DisassembleRatio>50</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -325,7 +325,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -439,7 +439,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -611,7 +611,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
 
     <!-- Region ROUND ARMOR -->
@@ -765,7 +765,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -879,7 +879,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -1051,7 +1051,7 @@
       <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <!-- End region ROUND ARMOR -->
 
@@ -1242,7 +1242,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>8</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -1384,7 +1384,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>5</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <!--    2x1x1 CORNER-->
     <Definition>
@@ -1538,7 +1538,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>5</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -1647,7 +1647,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <!--    2x1x1 INV. CORNER-->
     <Definition>
@@ -1825,7 +1825,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>7</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -1997,7 +1997,7 @@
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.05</DeformationRatio>
       <BuildTimeSeconds>7</BuildTimeSeconds>
-      <DisassembleRatio>4</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <!-- End Region SLOPED ARMOR -->
 
@@ -2057,9 +2057,9 @@
       </BlockVariants>
       <DamageEffectId>212</DamageEffectId>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>24</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
       <DeformationRatio>0.05</DeformationRatio>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <DisassembleRatio>100</DisassembleRatio>
     </Definition>
     <Definition>
       <Id>
@@ -2110,7 +2110,7 @@
       <DamageEffectId>212</DamageEffectId>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
       <DeformationRatio>0.05</DeformationRatio>
     </Definition>
     <Definition>
@@ -2167,7 +2167,7 @@
       <DamageEffectId>212</DamageEffectId>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>72</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
       <DeformationRatio>0.05</DeformationRatio>
     </Definition>
     <Definition>
@@ -2219,7 +2219,7 @@
       <DamageEffectId>212</DamageEffectId>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>200</BuildTimeSeconds>
-      <DisassembleRatio>5</DisassembleRatio>
+      <DisassembleRatio>100</DisassembleRatio>
       <DeformationRatio>0.05</DeformationRatio>
     </Definition>
   </CubeBlocks>
