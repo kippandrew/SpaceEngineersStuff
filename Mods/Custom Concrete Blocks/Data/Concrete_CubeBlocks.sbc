@@ -179,7 +179,7 @@
           <SubtypeId>LargeConcreteArmorCornerInv</SubtypeId>
         </BlockVariant>
       </BlockVariants>
-      <DeformationRatio>0.0</DeformationRatio>
+      <DeformationRatio>0.05</DeformationRatio>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <DisassembleRatio>100</DisassembleRatio>
