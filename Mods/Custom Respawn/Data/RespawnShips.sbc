@@ -9,7 +9,7 @@
       <DisplayName>DisplayName_PlanetaryLander</DisplayName>
       <Icon>Textures\GUI\Icons\RespawnShips\Fake.png</Icon>
       <CooldownSeconds>900</CooldownSeconds>
-      <Prefab>RespawnRoverPuma</Prefab>
+      <Prefab>Spawn Puma</Prefab>
       
       <MinimalAirDensity>0.8</MinimalAirDensity>
       <PlanetDeployAltitude>2000</PlanetDeployAltitude>
