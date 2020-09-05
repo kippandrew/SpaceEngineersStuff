@@ -525,13 +525,13 @@
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="10" />
+        <Component Subtype="Superconductor" Count="25" />
         <Component Subtype="Motor" Count="2" />
         <Component Subtype="Computer" Count="2" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
-      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
@@ -592,15 +592,15 @@
       <Components>
         <Component Subtype="SteelPlate" Count="50" />
         <Component Subtype="Construction" Count="50" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="50" />
-        <Component Subtype="GravityGenerator" Count="10" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="GravityGenerator" Count="50" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
-      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
@@ -661,15 +661,15 @@
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="100" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="150" />
-        <Component Subtype="GravityGenerator" Count="50" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Superconductor" Count="500" />
+        <Component Subtype="GravityGenerator" Count="100" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
-      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
@@ -730,13 +730,13 @@
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="10" />
+        <Component Subtype="Superconductor" Count="25" />
         <Component Subtype="Motor" Count="4" />
         <Component Subtype="Computer" Count="2" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
@@ -795,15 +795,15 @@
       <Components>
         <Component Subtype="SteelPlate" Count="50" />
         <Component Subtype="Construction" Count="50" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="50" />
-        <Component Subtype="GravityGenerator" Count="10" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="GravityGenerator" Count="50" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
@@ -862,15 +862,15 @@
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="100" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Superconductor" Count="150" />
-        <Component Subtype="GravityGenerator" Count="50" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="Superconductor" Count="500" />
+        <Component Subtype="GravityGenerator" Count="200" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="25" />
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
@@ -932,7 +932,7 @@
         <Component Subtype="Detector" Count="20" />
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
-      <CriticalComponent Subtype="Superconductor" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="0" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
