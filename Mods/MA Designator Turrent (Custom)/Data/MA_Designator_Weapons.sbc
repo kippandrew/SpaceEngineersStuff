@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>MA_Designator_Laser</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="" />
+      <!--    <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" /> -->
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <RangeMultiplier>1</RangeMultiplier>
+      <UseRandomizedRange>false</UseRandomizedRange>
+      <!--Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true"/>
+        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+      </Effects-->
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="MostlyHarmlessEnergy" />
+      <!--  <AmmoMagazine Subtype="Missile200mm" />  -->
+      </AmmoMagazines>
+    </Weapon>
+	
+	    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>MA_Designator_Laser_sm</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="" />
+      <!--    <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" /> -->
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+      <RangeMultiplier>1</RangeMultiplier>
+      <UseRandomizedRange>false</UseRandomizedRange>
+      <!--Effects>
+        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true"/>
+        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+      </Effects-->
+      <AmmoMagazines>
+		<AmmoMagazine Subtype="MostlyHarmlessEnergy" />
+      <!--  <AmmoMagazine Subtype="Missile200mm" />  -->
+      </AmmoMagazines>
+    </Weapon>
+
+  </Weapons>
+</Definitions>
