@@ -14,6 +14,7 @@
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
             <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Iron" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Nickel" />
@@ -155,6 +156,7 @@
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
+            <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />

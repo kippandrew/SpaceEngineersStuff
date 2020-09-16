@@ -19,8 +19,8 @@
             <PhysicalMaterial>Metal</PhysicalMaterial>
 
             <MinimalPricePerUnit>500000</MinimalPricePerUnit>
-            <MinimumOfferAmount>2</MinimumOfferAmount>
-            <MaximumOfferAmount>5</MaximumOfferAmount>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>3</MaximumOfferAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
             <MaxIntegrity>1</MaxIntegrity>
