@@ -7,7 +7,7 @@
 				<SubtypeId>Goodtimtaninum</SubtypeId>
 			</Id>
 			<DisplayName>Goodtimtaninum</DisplayName>
-			<Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+			<Icon>Textures\GUI\Icons\component\Goodtimtanium.dds</Icon>
 			<Size>
 				<X>0.2</X>
 				<Y>0.1</Y>
