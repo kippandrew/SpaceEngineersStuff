@@ -9,10 +9,11 @@
 			<DisplayName>Zone Chip</DisplayName>
 			<Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
 			<Prerequisites>
-				<Item Amount="1000" TypeId="Ingot" SubtypeId="Platinum" />
+				<Item Amount="150" TypeId="Ingot" SubtypeId="Silver" />
+				<Item Amount="300" TypeId="Ingot" SubtypeId="Silicon" />
 			</Prerequisites>
 			<Result Amount="1" TypeId="Component" SubtypeId="ZoneChip" />
-			<BaseProductionTimeInSeconds>86400</BaseProductionTimeInSeconds>
+			<BaseProductionTimeInSeconds>129600</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>
