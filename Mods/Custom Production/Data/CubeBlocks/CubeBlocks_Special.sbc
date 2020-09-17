@@ -8,7 +8,7 @@
             </Id>
             <DisplayName>Special Assembler</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
-            <Description>Description_AssemblerBasic</Description>
+            <Description>Special Assember is special</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -58,7 +58,7 @@
             <BlueprintClasses>
                 <Class>SpecialComponents</Class>
             </BlueprintClasses>
-            <AssemblySpeed>0.1</AssemblySpeed>
+            <AssemblySpeed>1</AssemblySpeed>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
