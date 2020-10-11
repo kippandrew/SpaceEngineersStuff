@@ -23,8 +23,8 @@
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" />
+            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" /> -->
+            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" /> -->
 
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill4Item" />
