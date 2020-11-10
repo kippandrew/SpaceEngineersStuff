@@ -156,7 +156,6 @@
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
