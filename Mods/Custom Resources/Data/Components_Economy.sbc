@@ -18,9 +18,9 @@
             <Model>Models\Items\ZoneChip_Item.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
 
-            <MinimalPricePerUnit>500000</MinimalPricePerUnit>
-            <MinimumOfferAmount>1</MinimumOfferAmount>
-            <MaximumOfferAmount>3</MaximumOfferAmount>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>3</MinimumOfferAmount>
+            <MaximumOfferAmount>6</MaximumOfferAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
 
             <MaxIntegrity>1</MaxIntegrity>
