@@ -4,18 +4,18 @@
 
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
-        <TypeId>LargeGatlingTurret</TypeId>
-        <SubtypeId>StaticGatlingTurret</SubtypeId>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>StaticDefenseTurret</SubtypeId>
       </Id>
-      <DisplayName>Static Gatling Turret</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
-      <Description>Description_GatlingTurret</Description>
+      <DisplayName>Static Defense Turret</DisplayName>
+      <Icon>Textures\GUI\Bofors40mm.dds</Icon> 
+      <Description>40mm Static Defense Turret</Description>
       <CubeSize>Large</CubeSize>
       <PlaceDecals>false</PlaceDecals>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\GatlingTurret.mwm</Model>
+      <Model>Models\Large\BoforsTurret_1.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
@@ -29,12 +29,12 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GatlingTurretConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GatlingTurretConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GatlingTurretConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Large\BoforsTurret_constr_1.mwm"/>
+        <Model BuildPercentUpperBound="0.66" File="Models\Large\BoforsTurret_constr_2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Large\BoforsTurret_constr_3.mwm"/>
       </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
@@ -49,122 +49,39 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>GatlingTurret</BlockPairName>
+      <BlockPairName>StaticDefenseTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="StaticGatlingTurret" />
-      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+      <WeaponDefinitionId Subtype="StaticDefenseTurret" />
+      <InventoryMaxVolume>1</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-43</MinElevationDegrees>
-      <MaxElevationDegrees>90</MaxElevationDegrees>
+      <MinElevationDegrees>-15</MinElevationDegrees>
+      <MaxElevationDegrees>55</MaxElevationDegrees>
       <MinAzimuthDegrees>-180</MinAzimuthDegrees>
       <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
       <RotationSpeed>0.002</RotationSpeed>
-      <ElevationSpeed>0.002 </ElevationSpeed>
+      <ElevationSpeed>0.002</ElevationSpeed>
       <IdleRotation>true</IdleRotation>
       <MaxRangeMeters>1200</MaxRangeMeters>
       <MinFov>0.1</MinFov>
       <MaxFov>1.04719755</MaxFov>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>225</PCU>
-      <IsAirTight>false</IsAirTight>
-      <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
-      <InventoryFillFactorMin>.25</InventoryFillFactorMin>
-      <InventoryFillFactorMax>.5</InventoryFillFactorMax>
-        <TieredUpdateTimes>
-            <unsignedInt>10</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-      <Id>
-        <TypeId>LargeMissileTurret</TypeId>
-        <SubtypeId>StaticMissileTurret</SubtypeId>
-      </Id>
-      <DisplayName>Static Missile Turret</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
-      <Description>Description_MissileTurret</Description>
-      <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
-      <PlaceDecals>false</PlaceDecals>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\MissileTurret.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="MetalGrid" Count="5" />
-        <Component Subtype="LargeTube" Count="6" />
-        <Component Subtype="Motor" Count="16" />
-        <Component Subtype="Computer" Count="12" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="15" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MissileTurretConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MissileTurretConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MissileTurretConstruction_3.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>MissileTurret</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-      <WeaponDefinitionId Subtype="StaticMissileTurret" />
-      <InventoryMaxVolume>0.384</InventoryMaxVolume>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-58</MinElevationDegrees>
-      <MaxElevationDegrees>90</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <IdleRotation>true</IdleRotation>
-      <MaxRangeMeters>1200</MaxRangeMeters>
-      <RotationSpeed>0.002</RotationSpeed>
-      <ElevationSpeed>0.002 </ElevationSpeed>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <MinFov>0.1</MinFov>
-      <MaxFov>1.04719755</MaxFov>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>275</PCU>
       <IsAirTight>false</IsAirTight>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
-        <InventoryFillFactorMin>.25</InventoryFillFactorMin>
-        <InventoryFillFactorMax>.5</InventoryFillFactorMax>
-        <TieredUpdateTimes>
-            <unsignedInt>10</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <InventoryFillFactorMin>.25</InventoryFillFactorMin>
+      <InventoryFillFactorMax>.5</InventoryFillFactorMax>
+      <TieredUpdateTimes>
+        <unsignedInt>10</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
 
   </CubeBlocks>

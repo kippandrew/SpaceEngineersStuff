@@ -1,25 +1,27 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Ammos>
-        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
-                <SubtypeId>StaticLargeCaliber</SubtypeId>
+                <SubtypeId>40mmRound</SubtypeId>
             </Id>
-            <BasicProperties>
-                <DesiredSpeed>400</DesiredSpeed>
-                <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>1300</MaxTrajectory>
-                <BackkickForce>50</BackkickForce>
-                <PhysicalMaterial>GunBullet</PhysicalMaterial>
-            </BasicProperties>
-            <ProjectileProperties>
-                <ProjectileTrailScale>0.1</ProjectileTrailScale>
-                <ProjectileHitImpulse>2</ProjectileHitImpulse>
-                <ProjectileMassDamage>150</ProjectileMassDamage>
-                <ProjectileHealthDamage>33</ProjectileHealthDamage>
-                <HeadShot>true</HeadShot>
-            </ProjectileProperties>
+			<BasicProperties>
+				<DesiredSpeed>400</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>1200</MaxTrajectory>
+				<IsExplosive>true</IsExplosive>
+				<BackkickForce>500</BackkickForce>
+			</BasicProperties>
+			<MissileProperties>
+				<MissileMass>1</MissileMass>
+				<MissileModelName>Models\Weapons\40mmTrace.mwm</MissileModelName>
+				<MissileAcceleration>100</MissileAcceleration>
+				<MissileInitialSpeed>400</MissileInitialSpeed>
+				<MissileSkipAcceleration>false</MissileSkipAcceleration>
+				<MissileExplosionDamage>35</MissileExplosionDamage>
+				<MissileExplosionRadius>8</MissileExplosionRadius>
+			</MissileProperties>
         </Ammo>
     </Ammos>
 </Definitions>

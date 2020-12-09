@@ -4,21 +4,20 @@
         <AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>Static_NATO_25x184mm</SubtypeId>
+                <SubtypeId>40mmMagazine</SubtypeId>
             </Id>
-            <DisplayName>Static NATO 25x184mm</DisplayName>
-            <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+            <DisplayName>40mm Ammo Container</DisplayName>
+            <Icon>Textures\GUI\Icons\40mmShell.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.2</Y>
                 <Z>0.2</Z>
             </Size>
-            <Mass>35</Mass>
-            <Volume>16</Volume>
-            <Model>Models\Weapons\Ammo_Box.mwm</Model>
-            <PhysicalMaterial>Ammo</PhysicalMaterial>
-            <Capacity>140</Capacity>
-            <AmmoDefinitionId Subtype="StaticLargeCaliber" />
+            <Mass>320</Mass>
+            <Volume>30</Volume>
+            <Model>Models\Weapons\40mmShell.mwm</Model>
+            <AmmoDefinitionId Subtype="40mmRound" />
+            <Capacity>32</Capacity>
             <MinimumOfferAmount>100</MinimumOfferAmount>
             <MaximumOfferAmount>1000</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
