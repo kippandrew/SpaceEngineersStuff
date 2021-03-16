@@ -99,12 +99,12 @@
       <Ore Value="156" Type="Silicon_01" Start="80" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="160" Type="Nickel_01" Start="89" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="164" Type="Nickel_01" Start="96" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="168" Type="Platinum_01" Start="40" Depth="2" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="172" Type="Platinum_01" Start="42" Depth="2" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="176" Type="Platinum_01" Start="45" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="180" Type="Platinum_01" Start="80" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="184" Type="Platinum_01" Start="90" Depth="5" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="188" Type="Platinum_01" Start="110" Depth="6" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="168" Type="Magnesium_01" Start="40" Depth="2" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="172" Type="Magnesium_01" Start="42" Depth="2" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="176" Type="Magnesium_01" Start="45" Depth="3" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="180" Type="Magnesium_01" Start="80" Depth="4" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="184" Type="Magnesium_01" Start="90" Depth="5" TargetColor="#000000" ColorInfluence="200" />
+      <Ore Value="188" Type="Magnesium_01" Start="110" Depth="6" TargetColor="#000000" ColorInfluence="200" />
     </OreMappings>
 
     <SoundRules>
