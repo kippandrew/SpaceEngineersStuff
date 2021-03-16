@@ -22,7 +22,6 @@
       <PlanetTypes>
         <PlanetType>Pertam</PlanetType>
       </PlanetTypes>
-      
     </Ship>
 
     <Ship Enabled="false">
@@ -39,7 +38,7 @@
       <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
     </Ship>
-
+    
     <Ship Enabled="false">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
