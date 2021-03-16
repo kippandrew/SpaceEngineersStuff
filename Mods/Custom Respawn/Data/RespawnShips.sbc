@@ -11,8 +11,8 @@
       <CooldownSeconds>900</CooldownSeconds>
       <Prefab>Spawn Puma</Prefab>
       
-      <MinimalAirDensity>0.8</MinimalAirDensity>
-      <PlanetDeployAltitude>2000</PlanetDeployAltitude>
+      <MinimalAirDensity>0.5</MinimalAirDensity>
+      <PlanetDeployAltitude>500</PlanetDeployAltitude>
       <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
 
       <InitialLinearVelocity x="0" y="-95" z="0" />
@@ -22,7 +22,9 @@
       <PlanetTypes>
         <PlanetType>Pertam</PlanetType>
       </PlanetTypes>
+      
     </Ship>
+
     <Ship Enabled="false">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
@@ -37,6 +39,7 @@
       <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
     </Ship>
+
     <Ship Enabled="false">
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
