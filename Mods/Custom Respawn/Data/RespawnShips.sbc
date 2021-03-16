@@ -20,7 +20,7 @@
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
       
       <PlanetTypes>
-        <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Pertam</PlanetType>
       </PlanetTypes>
     </Ship>
     <Ship Enabled="false">
