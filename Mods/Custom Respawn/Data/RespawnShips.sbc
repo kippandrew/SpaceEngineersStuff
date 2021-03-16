@@ -11,7 +11,7 @@
       <CooldownSeconds>900</CooldownSeconds>
       <Prefab>Spawn Puma</Prefab>
       
-      <MinimalAirDensity>0.5</MinimalAirDensity>
+      <MinimalAirDensity>0.2</MinimalAirDensity>
       <PlanetDeployAltitude>500</PlanetDeployAltitude>
       <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
 
