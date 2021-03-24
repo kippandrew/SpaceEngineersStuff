@@ -16,19 +16,19 @@
 			<BaseProductionTimeInSeconds>129600</BaseProductionTimeInSeconds>
 		</Blueprint>
 		<Blueprint>
-		<Id>
-			<TypeId>BlueprintDefinition</TypeId>
-			<SubtypeId>ThrustComponent</SubtypeId>
-		</Id>
-		<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
-		<Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
-		<Prerequisites>
-			<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
-			<Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
-			<Item Amount="2" TypeId="Ingot" SubtypeId="Silver" />
-		</Prerequisites>
-		<Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
-		<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ThrustComponent</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+			<Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+				<Item Amount="2" TypeId="Ingot" SubtypeId="Silver" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
 		</Blueprint>
 	</Blueprints>
 </Definitions>
