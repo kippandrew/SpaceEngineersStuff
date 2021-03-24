@@ -254,6 +254,7 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -313,6 +314,7 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -374,7 +376,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -425,7 +426,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -470,7 +470,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -518,7 +517,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 
@@ -569,6 +567,7 @@
       <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       
 .
@@ -618,6 +617,7 @@
       <MinedOreRatio>1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
 
 
       <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
@@ -818,6 +818,7 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
       
       <MinVersion>1</MinVersion>
@@ -870,6 +871,7 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
 
       <MinVersion>1</MinVersion>

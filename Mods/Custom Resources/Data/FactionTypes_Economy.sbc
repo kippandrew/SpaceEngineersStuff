@@ -9,8 +9,8 @@
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Cobalt" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Silicon" />
-            <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" />
-            <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" />
+            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" /> -->
+            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" /> -->
             <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" /> -->
             <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" /> -->
             <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
@@ -21,8 +21,8 @@
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silicon" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cobalt" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
+            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" /> -->
+            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" /> -->
             <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" /> -->
             <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" /> -->
 
