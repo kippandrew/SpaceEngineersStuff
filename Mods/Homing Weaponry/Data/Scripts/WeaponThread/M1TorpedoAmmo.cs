@@ -246,7 +246,7 @@ namespace WeaponThread
             AmmoRound = "TorpedoMk1AmmoBoosted",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.00000000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
-            BaseDamage = 10000f,
+            BaseDamage = 1000f,
             Mass = 500f, // in kilograms
             Health = 26f, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
             BackKickForce = 2.5f,
@@ -336,7 +336,7 @@ namespace WeaponThread
                 {
                     DetonateOnEnd = true,
                     ArmOnlyOnHit = false,
-                    DetonationDamage = 35000f,
+                    DetonationDamage = 4250f,
                     DetonationRadius = 15f,
                 },
                 EwarFields = new EwarFieldsDef
