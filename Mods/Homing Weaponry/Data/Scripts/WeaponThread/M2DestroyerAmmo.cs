@@ -108,7 +108,7 @@ namespace WeaponThread
                     {
                         DetonateOnEnd = true,
                         ArmOnlyOnHit = false,
-                        DetonationDamage = 1500,
+                        DetonationDamage = 400,
                         DetonationRadius = 6f,
                     },
                     EwarFields = new EwarFieldsDef

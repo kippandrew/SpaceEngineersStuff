@@ -108,7 +108,7 @@ namespace WeaponThread
                     {
                         DetonateOnEnd = true,
                         ArmOnlyOnHit = false,
-                        DetonationDamage = 3500f,
+                        DetonationDamage = 400f,
                         DetonationRadius = 8,
                     },
                     EwarFields = new EwarFieldsDef
@@ -135,8 +135,8 @@ namespace WeaponThread
                     TargetLossTime = 600, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     MaxLifeTime = 3600, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     AccelPerSec = 55f,
-                    DesiredSpeed = 450f,
-                    MaxTrajectory = 4000f,//4000
+                    DesiredSpeed = 400f,
+                    MaxTrajectory = 3000f,
                     FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                     SpeedVariance = Random(start: 0, end: 5), // subtracts value from DesiredSpeed
                     RangeVariance = Random(start: 0, end: 0), // subtracts value from MaxTrajectory
