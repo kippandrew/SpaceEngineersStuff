@@ -9,10 +9,10 @@
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Cobalt" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Silicon" />
-            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" /> -->
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
             <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 
@@ -21,10 +21,10 @@
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silicon" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cobalt" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
-            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" /> -->
-            <!-- <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" /> -->
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" />
 
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill4Item" />
@@ -51,6 +51,8 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
             
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
+
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>
@@ -68,6 +70,11 @@
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PreciseAutomaticRifleItem" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="RapidFireAutomaticRifleItem" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="UltimateAutomaticRifleItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="SemiAutoPistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="FullAutoPistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="ElitePistolItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="BasicHandHeldLauncherItem" />
+            <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AdvancedHandHeldLauncherItem" />
 
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder2Item" />
@@ -111,6 +118,14 @@
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_25x184mm" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="Missile200mm" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="InteriorTurret_Mag_100rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="SemiAutoPistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="FullAutoPistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="ElitePistolMagazine" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="AutomaticRifleGun_Mag_20rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="RapidFireAutomaticRifleGun_Mag_50rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="PreciseAutomaticRifleGun_Mag_5rd" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="UltimateAutomaticRifleGun_Mag_30rd" />
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
@@ -159,6 +174,8 @@
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
+            
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
         </OffersList>
 
         <OrdersList>
