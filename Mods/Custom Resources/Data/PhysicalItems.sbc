@@ -39,8 +39,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Fe</IconSymbol>
             <MinimalPricePerUnit>100</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>20000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -66,8 +66,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Ni</IconSymbol>
             <MinimalPricePerUnit>100</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>20000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -93,8 +93,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Co</IconSymbol>
             <MinimalPricePerUnit>300</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>9000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>90000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>9000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -120,8 +120,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Mg</IconSymbol>
             <MinimalPricePerUnit>200</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>9000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>90000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>9000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -147,8 +147,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Si</IconSymbol>
             <MinimalPricePerUnit>100</MinimalPricePerUnit>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>20000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -174,8 +174,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Ag</IconSymbol>
             <MinimalPricePerUnit>200</MinimalPricePerUnit>
-            <MinimumOfferAmount>1500</MinimumOfferAmount>
-            <MaximumOfferAmount>15000</MaximumOfferAmount>
+            <MinimumOfferAmount>15000</MinimumOfferAmount>
+            <MaximumOfferAmount>150000</MaximumOfferAmount>
             <MinimumOrderAmount>1500</MinimumOrderAmount>
             <MaximumOrderAmount>15000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -201,8 +201,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Au</IconSymbol>
             <MinimalPricePerUnit>200</MinimalPricePerUnit>
-            <MinimumOfferAmount>1500</MinimumOfferAmount>
-            <MaximumOfferAmount>15000</MaximumOfferAmount>
+            <MinimumOfferAmount>15000</MinimumOfferAmount>
+            <MaximumOfferAmount>150000</MaximumOfferAmount>
             <MinimumOrderAmount>1500</MinimumOrderAmount>
             <MaximumOrderAmount>15000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -228,8 +228,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_Pt</IconSymbol>
             <MinimalPricePerUnit>400</MinimalPricePerUnit>
-            <MinimumOfferAmount>100</MinimumOfferAmount>
-            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -255,8 +255,8 @@
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>IconSymbol_U</IconSymbol>
             <MinimalPricePerUnit>500</MinimalPricePerUnit>
-            <MinimumOfferAmount>100</MinimumOfferAmount>
-            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -300,8 +300,8 @@
             <Model>Models\Ingots\iron_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Fe</IconSymbol>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>20000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -326,8 +326,8 @@
             <Model>Models\Ingots\nickel_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Ni</IconSymbol>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>10000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -352,8 +352,8 @@
             <Model>Models\Ingots\cobalt_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Co</IconSymbol>
-            <MinimumOfferAmount>300</MinimumOfferAmount>
-            <MaximumOfferAmount>3000</MaximumOfferAmount>
+            <MinimumOfferAmount>3000</MinimumOfferAmount>
+            <MaximumOfferAmount>30000</MaximumOfferAmount>
             <MinimumOrderAmount>20</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -378,8 +378,8 @@
             <Model>Models\Ingots\magnesium_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Mg</IconSymbol>
-            <MinimumOfferAmount>300</MinimumOfferAmount>
-            <MaximumOfferAmount>3000</MaximumOfferAmount>
+            <MinimumOfferAmount>3000</MinimumOfferAmount>
+            <MaximumOfferAmount>30000</MaximumOfferAmount>
             <MinimumOrderAmount>10</MinimumOrderAmount>
             <MaximumOrderAmount>200</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -404,8 +404,8 @@
             <Model>Models\Ingots\silicon_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Si</IconSymbol>
-            <MinimumOfferAmount>1000</MinimumOfferAmount>
-            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOfferAmount>10000</MinimumOfferAmount>
+            <MaximumOfferAmount>100000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>20000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -430,8 +430,8 @@
             <Model>Models\Ingots\silver_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Ag</IconSymbol>
-            <MinimumOfferAmount>500</MinimumOfferAmount>
-            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOfferAmount>5000</MinimumOfferAmount>
+            <MaximumOfferAmount>50000</MaximumOfferAmount>
             <MinimumOrderAmount>30</MinimumOrderAmount>
             <MaximumOrderAmount>3000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -456,8 +456,8 @@
             <Model>Models\Ingots\gold_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Au</IconSymbol>
-            <MinimumOfferAmount>500</MinimumOfferAmount>
-            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOfferAmount>5000</MinimumOfferAmount>
+            <MaximumOfferAmount>50000</MaximumOfferAmount>
             <MinimumOrderAmount>30</MinimumOrderAmount>
             <MaximumOrderAmount>3000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -482,8 +482,8 @@
             <Model>Models\Ingots\platinum_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_Pt</IconSymbol>
-            <MinimumOfferAmount>200</MinimumOfferAmount>
-            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOfferAmount>2000</MinimumOfferAmount>
+            <MaximumOfferAmount>20000</MaximumOfferAmount>
             <MinimumOrderAmount>10</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
@@ -508,8 +508,8 @@
             <Model>Models\Ingots\uranium_ingot.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <IconSymbol>IconSymbol_U</IconSymbol>
-            <MinimumOfferAmount>100</MinimumOfferAmount>
-            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
             <MinimumOrderAmount>10</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
