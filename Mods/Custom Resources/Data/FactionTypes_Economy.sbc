@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">    
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
         <Id Type="MyObjectBuilder_FactionTypeDefinition" Subtype="Miner" />
-        
+
         <OffersList>
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Iron" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Nickel" />
@@ -36,9 +36,9 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
         </OffersList>
 
-        <OrdersList>            
+        <OrdersList>
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Cobalt" />
-            <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />            
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Magnesium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Silver" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Gold" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
@@ -50,16 +50,14 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Motor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
-            
-            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
 
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>
-        <CanSellHydrogen>true</CanSellHydrogen>        
+        <CanSellHydrogen>true</CanSellHydrogen>
 
         <MaxContractCount>15</MaxContractCount>
-        
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
@@ -86,7 +84,7 @@
 
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill2Item" />
-            
+
             <ItemId Type="MyObjectBuilder_OxygenContainerObject" Subtype="OxygenBottle" />
             <ItemId Type="MyObjectBuilder_GasContainerObject" Subtype="HydrogenBottle" />
 
@@ -104,7 +102,7 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />            
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Explosives" />
@@ -115,9 +113,13 @@
             <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="ZoneChip" />
 
-            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_25x184mm" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="Missile200mm" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="AutocannonClip" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="MediumCalibreAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="LargeCalibreAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="LargeRailgunAmmo" />
+            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="SmallRailgunAmmo" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="InteriorTurret_Mag_100rd" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="SemiAutoPistolMagazine" />
             <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="FullAutoPistolMagazine" />
@@ -129,14 +131,14 @@
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Medkit" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Powerkit" />
-            
+
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
         </OffersList>
 
         <OrdersList>
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cobalt" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />            
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Magnesium" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Silver" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
@@ -145,7 +147,7 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Superconductor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />            
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
@@ -153,10 +155,10 @@
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>
-        <CanSellHydrogen>true</CanSellHydrogen>        
+        <CanSellHydrogen>true</CanSellHydrogen>
 
         <MaxContractCount>15</MaxContractCount>
-        
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_FactionTypeDefinition">
@@ -174,8 +176,6 @@
 
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="ClangCola" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="CosmicCoffee" />
-            
-            <ItemId Type="MyObjectBuilder_AmmoMagazine" Subtype="NATO_5p56x45mm" />
         </OffersList>
 
         <OrdersList>
@@ -193,48 +193,48 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Reactor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Thrust" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />            
+            <ItemId Type="MyObjectBuilder_Component" Subtype="GravityGenerator" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="RadioCommunication" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Explosives" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />            
-        </OrdersList>        
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />
+        </OrdersList>
 
         <GridsForSale>
-            <PrefabName>ATV-Survivor</PrefabName>            
+            <PrefabName>ATV-Survivor</PrefabName>
             <PrefabName>Fighter2</PrefabName>
             <PrefabName>MinerSmallShip</PrefabName>
             <PrefabName>Civic Hauler</PrefabName>
             <PrefabName>Cursor</PrefabName>
             <PrefabName>Buddy Miner</PrefabName>
             <PrefabName>Atmo Constructor</PrefabName>
-            <PrefabName>Scout Miner</PrefabName> 
-            <PrefabName>Solar Scout</PrefabName> 
-            <PrefabName>Aggressive Miner</PrefabName> 
-            <PrefabName>Gerbil Miner</PrefabName> 
-            <PrefabName>Ion Constructor</PrefabName> 
-            <PrefabName>Kite Miner</PrefabName> 
-            <PrefabName>Ion Light Scout</PrefabName>   
-            <PrefabName>Ion Tug Ship</PrefabName> 
-            <PrefabName>Turtle Miner</PrefabName> 
-            <PrefabName>U-92 Patrol Craft</PrefabName>   
-            <PrefabName>Lunar Scout mk.4</PrefabName>  
-            <PrefabName>LCC-3 Freighter</PrefabName>  
-            <PrefabName>Burstfire Bomber</PrefabName>  
-            <PrefabName>Hydro Scout Rover</PrefabName>  
-            <PrefabName>Lunar Scout mk.2</PrefabName>  
-            <PrefabName>T-Ion Fade</PrefabName>  
-            <PrefabName>Blue Ambassador Explorer</PrefabName> 
-            <PrefabName>Red Cruiser</PrefabName> 
-            <PrefabName>Rescue Rover 1</PrefabName> 
+            <PrefabName>Scout Miner</PrefabName>
+            <PrefabName>Solar Scout</PrefabName>
+            <PrefabName>Aggressive Miner</PrefabName>
+            <PrefabName>Gerbil Miner</PrefabName>
+            <PrefabName>Ion Constructor</PrefabName>
+            <PrefabName>Kite Miner</PrefabName>
+            <PrefabName>Ion Light Scout</PrefabName>
+            <PrefabName>Ion Tug Ship</PrefabName>
+            <PrefabName>Turtle Miner</PrefabName>
+            <PrefabName>U-92 Patrol Craft</PrefabName>
+            <PrefabName>Lunar Scout mk.4</PrefabName>
+            <PrefabName>LCC-3 Freighter</PrefabName>
+            <PrefabName>Burstfire Bomber</PrefabName>
+            <PrefabName>Hydro Scout Rover</PrefabName>
+            <PrefabName>Lunar Scout mk.2</PrefabName>
+            <PrefabName>T-Ion Fade</PrefabName>
+            <PrefabName>Blue Ambassador Explorer</PrefabName>
+            <PrefabName>Red Cruiser</PrefabName>
+            <PrefabName>Rescue Rover 1</PrefabName>
             <PrefabName>TT-15 Freighter</PrefabName>
             <PrefabName>RespawnSpacePod</PrefabName>
             <PrefabName>RespawnShip</PrefabName>
-            <PrefabName>B-980 Hauler</PrefabName>   
-            <PrefabName>TT-420 Freighter</PrefabName>   
-            <PrefabName>J-Class Courier</PrefabName>   
+            <PrefabName>B-980 Hauler</PrefabName>
+            <PrefabName>TT-420 Freighter</PrefabName>
+            <PrefabName>J-Class Courier</PrefabName>
             <PrefabName>B-60 Bulk Freighter</PrefabName>
             <PrefabName>H-01 Prospector</PrefabName>
             <PrefabName>H-01 Sapper</PrefabName>
@@ -244,8 +244,8 @@
         </GridsForSale>
 
         <MaxContractCount>15</MaxContractCount>
-        
+
     </Definition>
-    
+
 </Definitions>
 
