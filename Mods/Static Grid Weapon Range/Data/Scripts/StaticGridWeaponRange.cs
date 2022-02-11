@@ -1,5 +1,3 @@
-using Sandbox.Definitions;
-using Sandbox.Game;
 using Sandbox.Common.ObjectBuilders;
 using Sandbox.ModAPI;
 using Sandbox.ModAPI.Interfaces;
@@ -7,12 +5,14 @@ using Sandbox.ModAPI.Interfaces.Terminal;
 using System.Collections.Generic;
 using System;
 using VRage.Game;
-using VRage.Game.ModAPI;
 using VRage.Game.Components;
 using VRage.ObjectBuilders;
 using VRage.ModAPI;
 using VRage.Utils;
-using VRageMath;
+using SpaceEngineers.Game;
+using SpaceEngineers.Game.ModAPI;
+using VRage.Game.ModAPI;
+using Sandbox.Game.Weapons;
 
 namespace StaticGridWeaponRange
 {
@@ -76,57 +76,45 @@ namespace StaticGridWeaponRange
         }
     }
 
-    public abstract class StaticGridWeaponRangeGameLogicComponent : MyGameLogicComponent
+    public abstract class StaticGridTurret : MyGameLogicComponent
     {
 
-        protected IMyTerminalBlock mTerminal;
-        protected IMyLargeTurretBase mTurret;
-        protected bool mStatic = false;
-
-        abstract protected float DynamicTargetingRange {
-          get;
-        }
-        
-        abstract protected float StaticTargetingRange {
-          get;
-        }
+        private IMyTerminalBlock mTerminal;
+        private IMyCubeBlock mBlock;
 
         public override void Init(MyObjectBuilder_EntityBase ob)
         {
             try
             {
-                mTurret = Entity as IMyLargeTurretBase;
+                mBlock = Entity as IMyCubeBlock;
                 mTerminal = Entity as IMyTerminalBlock;
-                mStatic = mTurret.CubeGrid.IsStatic;
-                NeedsUpdate |= MyEntityUpdateEnum.EACH_10TH_FRAME;
+                NeedsUpdate |= MyEntityUpdateEnum.EACH_100TH_FRAME;
                 base.Init(ob);
             }
             catch (Exception ex)
             {
-                Logger.Error($"Error initializing StaticGridWeaponRangeGameLogicComponent", ex);
+                Logger.Error($"Error initializing StaticGridTurret", ex);
             }
         }
 
-        public override void UpdateBeforeSimulation10()
+        public override void UpdateBeforeSimulation100()
         {
             try
             {
-                if (mTurret.CubeGrid.Physics != null)
+                if (mBlock.CubeGrid.Physics != null)
                 {
-                    if (!mTurret.CubeGrid.IsStatic)
+                    if (!mBlock.CubeGrid.IsStatic)
                     {
                         // Set to dynamic targeting range
-                        mTerminal.SetValueFloat("Range", DynamicTargetingRange);
+                        mTerminal.SetValueFloat("Range", GetDynamicTargetingRange());
                         UpdateControls();
                     }
                     else
                     {
                         // Set to static targeting range 
-                        mTerminal.SetValueFloat("Range", StaticTargetingRange);
+                        mTerminal.SetValueFloat("Range", GetStaticTargetingRange());
                         UpdateControls();
                     }
-
-                    mStatic = mTurret.CubeGrid.IsStatic;
                 }
             }
             catch (Exception ex)
@@ -135,12 +123,50 @@ namespace StaticGridWeaponRange
             }
         }
 
-        protected void UpdateControls()
+        abstract protected void UpdateControls();
+
+        abstract protected float GetDynamicTargetingRange();
+
+        abstract protected float GetStaticTargetingRange();
+
+        protected float GetWeaponRange(IMyEntity e)
+        {
+            var range = 0.0f;
+            var weapon = (IMyGunObject<MyGunBase>)e;
+            if (weapon != null)
+            {
+                range = weapon.GunBase.CurrentAmmoDefinition.MaxTrajectory;
+            }
+            return range;
+        }
+    }
+
+    // Large Grid Missile Turret
+    // Large Grid Artillery Turret
+    // Large Grid Assault Turret
+    // Small Grid Missile Turret
+    // Small Grid Assault Turret
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_LargeMissileTurret), false, new string[] {})]
+    public class StaticGridLargeMissileTurret : StaticGridTurret
+    {
+        private const float minimumRange = 800f;
+
+        protected override float GetDynamicTargetingRange()
+        {
+            return minimumRange;
+        }
+
+        protected override float GetStaticTargetingRange()
+        {
+            return Math.Max(GetWeaponRange(Entity), minimumRange);
+        }
+        
+        protected override void UpdateControls()
         {
             var tempList = new List<IMyTerminalControl>();
             MyAPIGateway.TerminalControls.GetControls<IMyLargeTurretBase>(out tempList);
             foreach (var control in tempList)
-            {
+            {   
                 if (control.Id == "Range")
                 {
                     control.Enabled = mTurret => false;
@@ -151,20 +177,66 @@ namespace StaticGridWeaponRange
 
     }
 
-    // Large Grid Assault Turret
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_LargeMissileTurret), false, new string[] { "LargeBlockMediumCalibreTurret" })]
-    public class StaticGridMediumCalibreTurret : StaticGridWeaponRangeGameLogicComponent
+    // Large Grid Turret Control Block
+    // Small Grid Turret Control Block
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_TurretControlBlock), false, new string[] {})]
+    public class StaticGridTurretControlBlock : StaticGridTurret
     {
-        protected override float DynamicTargetingRange => 800;
-        protected override float StaticTargetingRange => 1400;
-    }
+        private const float minimumRange = 800f;
 
-    // Large Grid Artillery Turret
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_LargeMissileTurret), false, new string[] { "LargeCalibreTurret" })]
-    public class StaticGridLargeCalibreTurret : StaticGridWeaponRangeGameLogicComponent
-    {
-        protected override float DynamicTargetingRange => 800;
-        protected override float StaticTargetingRange => 200;
+        private IMyTurretControlBlock mController;
+
+        public override void Init(MyObjectBuilder_EntityBase ob)
+        {
+            try
+            {
+                mController = Entity as IMyTurretControlBlock;
+                base.Init(ob);
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Error initializing StaticGridTurretController", ex);
+            }
+        }
+        
+        protected override void UpdateControls()
+        {
+            var tempList = new List<IMyTerminalControl>();
+            MyAPIGateway.TerminalControls.GetControls<IMyTurretControlBlock>(out tempList);
+            foreach (var control in tempList)
+            {   
+                Logger.Info($"{control.Id}");
+                if (control.Id == "Range")
+                {
+                    control.Enabled = mTurret => false;
+                    control.RedrawControl();
+                }
+            }
+        }
+
+        protected override float GetDynamicTargetingRange()
+        {
+            return minimumRange;
+        }
+
+        protected override float GetStaticTargetingRange()
+        {
+            float maxRange = 0;
+
+            var tools = new List<Sandbox.ModAPI.Ingame.IMyFunctionalBlock>();
+            mController.GetTools(tools);
+
+            foreach (var tool in tools)
+            {
+                var gunRange = GetWeaponRange((IMyEntity)tool);
+                if (gunRange > maxRange)
+                {
+                    maxRange = gunRange;
+                }
+            }
+
+            return Math.Max(maxRange, minimumRange);
+        }
     }
 
 }
